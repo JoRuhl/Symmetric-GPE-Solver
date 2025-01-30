@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Symmetric GPE Solver
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Joanna
+    family-names: Ruhl
+    email: joanna.ruhl001@umb.edu
+    affiliation: University of Massachusetts Boston
+    orcid: 'https://orcid.org/0000-0002-1475-6891'
+abstract: >-
+  This code implements the algorithms for a 2D radially
+  symmetric GPE detailed in W. Bao and Y. Cai's paper
+  "MATHEMATICAL THEORY AND NUMERICAL METHODS FOR
+  BOSE-EINSTEIN CONDENSATION" available on arXiv at
+  https://arxiv.org/pdf/1212.5341.pdf.
+
+
+  The 2DRadiallySymmetricGPE_Ground code finds the ground
+  state using BEFD and imaginary time propagation. The
+  2DRadiallySymmetricGPE_Dynamics code numerically time
+  propagates the ground state after quench (in a harmonic
+  trap) using TSFD. If you have already calculated a ground
+  state using other means, or have a saved ground state, you
+  can use it for the time propagation directly.
+keywords:
+  - 'GPE, Bose-Einstein Condensate, NLSE, breather'
